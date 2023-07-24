@@ -1946,7 +1946,7 @@ button,
     #sidebar > .inner > * {
       border-bottom: solid 2px rgba(210, 215, 217, 0.75);
       margin: 0 0 3.5em 0;
-      padding: 0 0 3.5em 0; }
+      padding: 0 0 .5em 0; }
       #sidebar > .inner > * > :last-child {
         margin-bottom: 0; }
       #sidebar > .inner > *:last-child {
@@ -2213,7 +2213,7 @@ button,
   text-transform: uppercase; }
   #menu ul a, #menu ul span {
     border-bottom: 0;
-    color: inherit;
+    color: black;
     cursor: pointer;
     display: block;
     font-size: 0.9em;
