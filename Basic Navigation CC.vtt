@@ -1,0 +1,134 @@
+WEBVTT
+
+00:00:00.833 --> 00:00:05.766
+This video provides a basic introduction to navigating SituationAnalyst.
+
+00:00:05.766 --> 00:00:15.199
+When you open Situation Analyst you will see the map; the zoom in, zoom out, and current location buttons; and the navigation menu.
+
+00:00:16.533 --> 00:00:24.799
+Within the navigation menu is the Briefing mode, the Manage Layers menu, the Edit menu, and the Tools menu;
+
+00:00:25.300 --> 00:00:29.300
+the Help button, the Map legend, and the Workspaces menu.
+
+00:00:30.600 --> 00:00:35.333
+In the main display, you can hold and drag to move around the map.
+
+00:00:36.566 --> 00:00:41.099
+On PCs you can zoom in by using your scroll wheel
+
+00:00:42.100 --> 00:00:47.233
+or by holding shift while clicking and dragging over the area you want to zoom in on.
+
+00:00:48.900 --> 00:00:52.900
+On touch devices, you can zoom by pinching in or out.
+
+00:00:53.166 --> 00:01:00.766
+On all devices, you can use the plus or minus buttons to zoom in or out, as well as the location button to go to your current location.
+
+00:01:00.766 --> 00:01:07.299
+Selecting a location on the map will open an info panel with details about the selected location.
+
+00:01:07.300 --> 00:01:13.333
+Selecting Navigation will open directions in your device’s default map application.
+
+00:01:14.866 --> 00:01:22.599
+The Briefing Mode provides information about active incidents, committed resources, and response activities.
+
+00:01:22.600 --> 00:01:28.000
+The Manage Layers menu allows users to select and customize visible layers on the map.
+
+00:01:28.266 --> 00:01:32.732
+You can change the basemap, as well as the basemap opacity.
+
+00:01:32.900 --> 00:01:37.366
+You can turn on or off individual layers on the map by selecting the layer name.
+
+00:01:37.366 --> 00:01:42.932
+You will know a layer is on when there is a blue bar to the left of the layer name.
+
+00:01:42.933 --> 00:01:48.466
+With the search bar, you can search for specific layers as well as locations.
+
+00:01:48.633 --> 00:01:53.966
+In the gear menu, you can export layer data and clear layer settings.
+
+00:01:56.566 --> 00:02:01.166
+The Edit menu allows users to add layers into SituationAnalyst.
+
+00:02:01.166 --> 00:02:06.499
+Any layers added will be removed when you change workspaces or when the webpage is refreshed.
+
+00:02:07.866 --> 00:02:11.932
+The Tools menu provides a different set of tools based on the open Workspace.
+
+00:02:11.933 --> 00:02:17.166
+More information on Workspace-specific tools can be found in the user guide.
+
+00:02:17.166 --> 00:02:23.899
+In all workspaces, the Tools menu allows for measuring distances or lengths and searching within layers.
+
+00:02:23.900 --> 00:02:31.133
+This is different from the Manage Layers menu search bar, which searches for the layers themselves and not for items within the layer.
+
+00:02:31.900 --> 00:02:35.666
+The Workspaces menu allows you to switch between workspaces.
+
+00:02:35.666 --> 00:02:38.566
+Each workspace provides a different set of layers.
+
+00:02:38.566 --> 00:02:43.932
+The Active Incidents workspace is the default workspace. It provides location details for active incidents.
+
+00:02:43.933 --> 00:02:47.733
+The Predictive Services workspace provides weather activity data.
+
+00:02:47.733 --> 00:02:52.999
+The Intelligence & Resources workspace provides in-depth intelligence for fire operations.
+
+00:02:53.000 --> 00:02:58.000
+Airborne Intelligence is located in the Intelligence & Resources workspace.
+
+00:02:58.000 --> 00:03:02.900
+The Aviation workspace provides pilots with flight planning information.
+
+00:03:02.900 --> 00:03:08.633
+Automated Telemetry Units, or ATU, are located in the Aviation workspace.
+
+00:03:08.633 --> 00:03:13.499
+The Fuels and Planning workspace provides information for burning operations.
+
+00:03:13.500 --> 00:03:18.333
+The Lightning workspace provides lightning and thermal detection data from satellites.
+
+00:03:18.333 --> 00:03:22.533
+The Natural Hazards workspace provides data for natural hazards.
+
+00:03:22.533 --> 00:03:30.833
+The Workspaces menu also allows users to swap between EGP applications. Different users have access to different applications.
+
+00:03:30.833 --> 00:03:33.799
+Applications that you are not able to access will appear greyed out.
+
+00:03:33.800 --> 00:03:40.733
+The Lightning Viewer application is different than the Lightning workspace.
+
+00:03:40.900 --> 00:03:45.100
+The legend shows the symbols on the map and what they represent.
+
+00:03:45.633 --> 00:03:49.633
+You can dock or undock the legend by selecting the Docking icon.
+
+00:03:53.100 --> 00:03:56.766
+Selecting the Help button takes you to the help page.
+
+00:03:57.200 --> 00:04:03.500
+The help page includes training materials, such as user guides, tutorial videos, and FAQs.
+
+00:04:03.833 --> 00:04:11.333
+For additional assistance, please contact the Helpdesk Toll-Free at (866)-244-7677,
+
+00:04:11.333 --> 00:04:20.866
+or visit the IIA Help Desk webpage at iiahelpdesk.nwcg.gov to email or chat with an agent.
+
