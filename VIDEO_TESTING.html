@@ -2,6 +2,9 @@
 <html>
   <head>
     <style>
+      h2 {
+        font-family: Arial, Helvetica, sans-serif;
+      }
       details {
         display: inline-block;
         margin-top: 0.67em;
@@ -18,7 +21,7 @@
         box-shadow: inset 0 0 0 2px #ec0000be;
         color: #ec0000be;
         cursor: pointer;
-        display: inline-block;
+        display: inline-flex;
         font-family: "Roboto Slab", serif;
         font-size: 0.8em;
         font-weight: 700;
@@ -38,6 +41,23 @@
         
       details[open] > summary {background-color: rgba(245, 106, 106, 0.15);
 }        
+
+        summary::after {
+  content: '';
+  width: 18px;
+  height: 10px;
+  background: url('images/Arrow.svg');
+  background-size: cover;
+  margin-top: auto;
+  margin-bottom: auto;
+margin-left: .75em;
+  transition: 0.2s;
+}
+
+details[open] > summary::after {
+  transform: rotate(180deg);
+}
+        
     </style>
   </head>
 <body>
@@ -45,12 +65,12 @@
     <section>
   <details class="mydetails">
       <summary>Situation Analyst Videos</summary>
-    <h1>Getting Started</h1>
+    <h2>Getting Started</h2>
       <video width="320" height="240" controls="controls">
         <source src="Test Project.mp4" type="video/mp4">
         <track src="Basic Navigation CC.vtt" kind="subtitles" srclang="en" label="English">
       </video>
-    <h1>How To Export Files</h1>
+    <h2>How To Export Files</h2>
       <video width="320" height="240" controls poster="/images/documents-stack.jpg">
         <source src="Test Project.mp4" type="video/mp4">
         <track src="Basic Navigation CC.vtt" kind="subtitles" srclang="en" label="English">
@@ -61,12 +81,12 @@
   <section>
    <details class="mydetails">
       <summary>Lightning Viewer Videos</summary>
-    <h1>How To Use The PolyPicker</h1>
+    <h2>How To Use The PolyPicker</h2>
       <video width="320" height="240" controls="controls">
         <source src="Test Project.mp4" type="video/mp4">
         <track src="Basic Navigation CC.vtt" kind="subtitles" srclang="en" label="English">
       </video>
-    <h1>How To View Lightning Data</h1>
+    <h2>How To View Lightning Data</h2>
       <video width="320" height="240" controls poster="/images/documents-stack.jpg">
         <source src="Test Project.mp4" type="video/mp4">
         <track src="Basic Navigation CC.vtt" kind="subtitles" srclang="en" label="English">
