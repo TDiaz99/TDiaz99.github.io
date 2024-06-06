@@ -37,23 +37,23 @@
 }
 
       details:hover > summary {
-        color: #000
-  background-color: rgba(245, 106, 106, 0.05);;
+        color: #000;
+        background-color: rgba(245, 106, 106, 0.05);;
 }
         
       details[open] > summary {background-color: rgba(245, 106, 106, 0.15);
 }        
 
-        summary::after {
-  content: '';
-  width: 18px;
-  height: 10px;
-  background: url('images/Arrow.svg');
-  background-size: cover;
-  margin-top: auto;
-  margin-bottom: auto;
-margin-left: .75em;
-  transition: 0.2s;
+      summary::after {
+        content: '';
+        width: 18px;
+        height: 10px;
+        background: url('images/Arrow.svg');
+        background-size: cover;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: .75em;
+        transition: 0.2s;
 }
 
 details[open] > summary::after {
