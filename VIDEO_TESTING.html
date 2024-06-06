@@ -3,25 +3,46 @@
   <head>
     <style>
       details {
-        display: block;
+        display: inline-block;
         margin-top: 0.67em;
         margin-bottom: 0.67em;
         margin-left: 0;
         margin-right: 0;
         font-weight: bold;
       summary {
-       display: inline-block;
-       padding: 16px 32px;
-       border-radius: 16px;
-       background-color: aquamarine;
+        user-select: none;
+        appearance: none;
+        background-color: transparent;
+        border-radius: 0.375em;
+        border: 0;
+        box-shadow: inset 0 0 0 2px #ec0000be;
+        color: #ec0000be;
+        cursor: pointer;
+        display: inline-block;
+        font-family: "Roboto Slab", serif;
+        font-size: 0.8em;
+        font-weight: 700;
+        height: 3.5em;
+        letter-spacing: 0.075em;
+        line-height: 3.5em;
+        padding: 0 2.25em;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        white-space: nowrap;
 }
 
-      details[open] summary {
-       background-color: rgb(104, 206, 172);
+      details:hover > summary {
+  background-color: rgba(245, 106, 106, 0.05);;
 }
+        
+      details[open] > summary {background-color: rgba(245, 106, 106, 0.15);
+}        
     </style>
   </head>
 <body>
+  <h1>Accordian Example</h1>
+    <section>
   <details class="mydetails">
       <summary>Situation Analyst Videos</summary>
     <h1>Getting Started</h1>
@@ -35,7 +56,9 @@
         <track src="Basic Navigation CC.vtt" kind="subtitles" srclang="en" label="English">
       </video>
   </details>
+    </section>
   
+  <section>
    <details class="mydetails">
       <summary>Lightning Viewer Videos</summary>
     <h1>How To Use The PolyPicker</h1>
@@ -49,6 +72,6 @@
         <track src="Basic Navigation CC.vtt" kind="subtitles" srclang="en" label="English">
       </video>
   </details>
-
+  </section>
 </body>
 </html>
