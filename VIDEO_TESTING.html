@@ -5,6 +5,9 @@
       h2 {
         font-family: Arial, Helvetica, sans-serif;
       }
+      video {
+        margin-top: 0%;
+      }
       details {
         display: inline-block;
         margin-top: 0.67em;
@@ -63,37 +66,60 @@ details[open] > summary::after {
     </style>
   </head>
 <body>
-  <h1>Accordion Example</h1>
+  <div>
+    <ul style="float:right; margin-right: 1%;">
+    <p style="margin: 0%; margin-left: -20% ;">Video Sections:</p>
+    <li><a href="#Situation Analyst Videos">Situation Analyst Videos</a></li>
+    <li><a href="#Lightning Viewer Videos">Lightning Viewer Videos</a></li>
+    <li><a href="#Scroll">Anchor Scroll Example</a></li>
+    <br><br>
+    <p style="margin: 0%; margin-left: -20%">Other Pages:</p>
+    <a href="VIDEO_TESTING2.html">Popup video examples </a>
+    </ul>
+   
+  </div>
+  <div style="margin-left: 1%;">
+    <h1>Accordion Example:</h1>
+      <section>
+    <details class="mydetails">
+        <summary id="Situation Analyst Videos">Situation Analyst Videos</summary>
+        <li><a href="#Getting Started">Getting Started Video</a></li>
+        <li><a href="#How To Export Files">How To Export Files</a></li>
+      <h2 id="Getting Started">Getting Started</h2>
+        <video width="352" height="198" controls="controls">
+          <source src="images/Test Project.mp4" type="video/mp4">
+          <track src="Basic Navigation CC.vtt" kind="subtitles" srclang="en" label="English">
+        </video>
+      <h2 id="How To Export Files">How To Export Files</h2>
+        <video width="352" height="198" controls poster="/images/documents-stack.jpg">
+          <source src="images/Test Project.mp4" type="video/mp4">
+          <track src="Basic Navigation CC.vtt" kind="subtitles" srclang="en" label="English">
+        </video>
+    </details>
+      </section>
     <section>
-  <details class="mydetails">
-      <summary>Situation Analyst Videos</summary>
-    <h2>Getting Started</h2>
-      <video width="320" height="240" controls="controls">
-        <source src="Test Project.mp4" type="video/mp4">
-        <track src="Basic Navigation CC.vtt" kind="subtitles" srclang="en" label="English">
-      </video>
-    <h2>How To Export Files</h2>
-      <video width="320" height="240" controls poster="/images/documents-stack.jpg">
-        <source src="Test Project.mp4" type="video/mp4">
-        <track src="Basic Navigation CC.vtt" kind="subtitles" srclang="en" label="English">
-      </video>
-  </details>
+     <details class="mydetails">
+        <summary id="Lightning Viewer Videos">Lightning Viewer Videos</summary>
+        <li><a href="#Poly">How To Use The PolyPicker Video</a></li>
+        <li><a href="#Lightning">How To View Lightning Data Video</a></li>
+      <h2 id="Poly">How To Use The PolyPicker</h2>
+        <video width="352" height="198" controls="controls" poster="/images/pic02.jpg">
+          <source src="images/Test Project.mp4" type="video/mp4">
+          <track src="Basic Navigation CC.vtt" kind="subtitles" srclang="en" label="English">
+        </video>
+      <h2 id="Lightning">How To View Lightning Data</h2>
+        <video width="352" height="198" controls poster="/images/Lightning.jpg">
+          <source src="images/Test Project.mp4" type="video/mp4">
+          <track src="Basic Navigation CC.vtt" kind="subtitles" srclang="en" label="English">
+        </video>
+    </details>
     </section>
-  
-  <section>
-   <details class="mydetails">
-      <summary>Lightning Viewer Videos</summary>
-    <h2>How To Use The PolyPicker</h2>
-      <video width="320" height="240" controls="controls" poster="/images/pic10.jpg">
-        <source src="Test Project.mp4" type="video/mp4">
-        <track src="Basic Navigation CC.vtt" kind="subtitles" srclang="en" label="English">
-      </video>
-    <h2>How To View Lightning Data</h2>
-      <video width="320" height="240" controls poster="/images/Lightning.jpg">
-        <source src="Test Project.mp4" type="video/mp4">
-        <track src="Basic Navigation CC.vtt" kind="subtitles" srclang="en" label="English">
-      </video>
-  </details>
-  </section>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <section><details class="mydetails">
+    <summary id="Scroll">Example Section</summary>
+    <p>Just a test.</p>
+    </details>
+    </section>
+  </div>
 </body>
 </html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .container{
+      text-align: center;
+      max-width: 800px;
+      margin:0 auto;
+      margin-top: 30px;
+
+}
+.youtube-link{
+  font-family: roboto, sans-serif;
+  line-height: 1.8;
+  display: flex;
+  margin: 8px;
+  cursor:pointer;
+  padding: 4px 32px;
+  transition: all 400ms ease;
+}
+.ypo{
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  pointer-events: none;
+  transition:all 400ms ease ;
+}
+.ypo.active{
+  opacity: 1;
+  pointer-events: auto;
+}
+.popup{
+  position: fixed;
+  width: 80%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+transition: all 400ms ease;
+}
+.ypo.active .popup{
+  transform: translate(-50%, 0);
+
+}
+.popup iframe{
+  width: 100%;
+  aspect-ratio: 16/9;
+}
+  </style>
+</head>
+
+
+<body>
+  <script src="popup.js"></script>
+<div class="container">
+  <div class="youtube-link">
+    Video 1
+  </div>
+  <div class="youtube-link">
+    Video 2
+  </div>
+  <div class="youtube-link">
+    Video 3
+  </div>
+
+</div>
+<div class="ypo">
+  <div class="popup">
+    <iframe 
+    src="images/Test Project.mp4"
+    allowfullscreen
+    > </iframe>
+
+  </div>
+</div>
+</body>
+</html>
