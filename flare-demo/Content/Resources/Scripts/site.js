@@ -1,5 +1,5 @@
 /* ===========================================================================
-   Meridian help centre - small site enhancements
+   Meridian help center - small site enhancements
 
    This file adds two things Flare does not provide for HTML5 output:
 

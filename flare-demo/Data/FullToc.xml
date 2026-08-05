@@ -13,7 +13,7 @@
     </TocEntry>
     <TocEntry Title="Time and benefits" Link="/Content/Time-And-Benefits/Time-And-Benefits.htm" ComputedFirstTopic="false" DescendantCount="2">
         <TocEntry Title="Time-off accrual rules" Link="/Content/Time-And-Benefits/Time-Off-Accrual-Rules.htm" ComputedFirstTopic="false" DescendantCount="0" />
-        <TocEntry Title="Benefit plan enrolment" Link="/Content/Time-And-Benefits/Benefit-Plan-Enrolment.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Benefit plan enrollment" Link="/Content/Time-And-Benefits/Benefit-Plan-Enrollment.htm" ComputedFirstTopic="false" DescendantCount="0" />
     </TocEntry>
     <TocEntry Title="Developer reference" Link="/Content/Developers/Developer-Reference.htm" ComputedFirstTopic="false" DescendantCount="2">
         <TocEntry Title="REST API overview" Link="/Content/Developers/REST-API-Overview.htm" ComputedFirstTopic="false" DescendantCount="0" />
@@ -32,7 +32,7 @@
         <TocEntry Title="Time clocks" Link="/Content/Placeholder/Time-clocks.htm" ComputedFirstTopic="false" DescendantCount="0" />
         <TocEntry Title="Single sign-on" Link="/Content/Placeholder/Single-sign-on.htm" ComputedFirstTopic="false" DescendantCount="0" />
         <TocEntry Title="Applicant tracking" Link="/Content/Placeholder/Applicant-tracking.htm" ComputedFirstTopic="false" DescendantCount="0" />
-        <TocEntry Title="Pension providers" Link="/Content/Placeholder/Pension-providers.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Retirement plan providers" Link="/Content/Placeholder/Pension-providers.htm" ComputedFirstTopic="false" DescendantCount="0" />
     </TocEntry>
     <TocEntry Title="Administration" Link="/Content/Placeholder/Administration.htm" ComputedFirstTopic="false" DescendantCount="6">
         <TocEntry Title="Users and roles" Link="/Content/Placeholder/Users-and-roles.htm" ComputedFirstTopic="false" DescendantCount="0" />

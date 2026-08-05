@@ -14,7 +14,7 @@ xmlFullTocData += '        <TocEntry Title=\"Off-cycle payments\" Link=\"/Conten
 xmlFullTocData += '    </TocEntry>';
 xmlFullTocData += '    <TocEntry Title=\"Time and benefits\" Link=\"/Content/Time-And-Benefits/Time-And-Benefits.htm\" ComputedFirstTopic=\"false\" DescendantCount=\"2\">';
 xmlFullTocData += '        <TocEntry Title=\"Time-off accrual rules\" Link=\"/Content/Time-And-Benefits/Time-Off-Accrual-Rules.htm\" ComputedFirstTopic=\"false\" DescendantCount=\"0\" />';
-xmlFullTocData += '        <TocEntry Title=\"Benefit plan enrolment\" Link=\"/Content/Time-And-Benefits/Benefit-Plan-Enrolment.htm\" ComputedFirstTopic=\"false\" DescendantCount=\"0\" />';
+xmlFullTocData += '        <TocEntry Title=\"Benefit plan enrollment\" Link=\"/Content/Time-And-Benefits/Benefit-Plan-Enrollment.htm\" ComputedFirstTopic=\"false\" DescendantCount=\"0\" />';
 xmlFullTocData += '    </TocEntry>';
 xmlFullTocData += '    <TocEntry Title=\"Developer reference\" Link=\"/Content/Developers/Developer-Reference.htm\" ComputedFirstTopic=\"false\" DescendantCount=\"2\">';
 xmlFullTocData += '        <TocEntry Title=\"REST API overview\" Link=\"/Content/Developers/REST-API-Overview.htm\" ComputedFirstTopic=\"false\" DescendantCount=\"0\" />';
@@ -33,7 +33,7 @@ xmlFullTocData += '        <TocEntry Title=\"Accounting systems\" Link=\"/Conten
 xmlFullTocData += '        <TocEntry Title=\"Time clocks\" Link=\"/Content/Placeholder/Time-clocks.htm\" ComputedFirstTopic=\"false\" DescendantCount=\"0\" />';
 xmlFullTocData += '        <TocEntry Title=\"Single sign-on\" Link=\"/Content/Placeholder/Single-sign-on.htm\" ComputedFirstTopic=\"false\" DescendantCount=\"0\" />';
 xmlFullTocData += '        <TocEntry Title=\"Applicant tracking\" Link=\"/Content/Placeholder/Applicant-tracking.htm\" ComputedFirstTopic=\"false\" DescendantCount=\"0\" />';
-xmlFullTocData += '        <TocEntry Title=\"Pension providers\" Link=\"/Content/Placeholder/Pension-providers.htm\" ComputedFirstTopic=\"false\" DescendantCount=\"0\" />';
+xmlFullTocData += '        <TocEntry Title=\"Retirement plan providers\" Link=\"/Content/Placeholder/Pension-providers.htm\" ComputedFirstTopic=\"false\" DescendantCount=\"0\" />';
 xmlFullTocData += '    </TocEntry>';
 xmlFullTocData += '    <TocEntry Title=\"Administration\" Link=\"/Content/Placeholder/Administration.htm\" ComputedFirstTopic=\"false\" DescendantCount=\"6\">';
 xmlFullTocData += '        <TocEntry Title=\"Users and roles\" Link=\"/Content/Placeholder/Users-and-roles.htm\" ComputedFirstTopic=\"false\" DescendantCount=\"0\" />';

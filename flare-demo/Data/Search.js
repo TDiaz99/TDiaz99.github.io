@@ -1,1 +1,1 @@
-define({r:0.5,st:'Stem',n:1,t:[0],m:[],u:['../Content/Developers/Developer-Reference.htm'],s:['$token','publish'],p:[['$token',13],['elections',11],['paged',13],['toc',38]]});
+define({r:0.5,st:'Stem',n:1,t:[0],m:[],u:['../Content/Developers/Developer-Reference.htm'],s:['$token','public'],p:[['$token',13],['effect',10],['p`st',6],['toc',38]]});

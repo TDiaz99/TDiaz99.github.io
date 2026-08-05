@@ -15,13 +15,13 @@
 
 :root
 {
-	/* Accent colour. Links, active nav item, buttons, focus rings. */
+	/* Accent color. Links, active nav item, buttons, focus rings. */
 	--Primary: #047857;
 
-	/* Page / surface colour. */
+	/* Page / surface color. */
 	--Lightest: #FFFFFF;
 
-	/* Body text colour. A deep slate reads softer than pure black. */
+	/* Body text color. A deep slate reads softer than pure black. */
 	--Dark: #1B1F2A;
 
 	/* Interface font. Uses whatever modern font the reader's operating system

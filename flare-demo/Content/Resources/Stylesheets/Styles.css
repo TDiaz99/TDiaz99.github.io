@@ -5,7 +5,7 @@
 /* ===========================================================================
    MERIDIAN HR CLOUD - MAIN STYLESHEET
 
-   HOW THIS FILE IS ORGANISED
+   HOW THIS FILE IS ORGANIZED
      01  Page basics
      02  Headings
      03  Body text and links
@@ -21,11 +21,11 @@
      13  OPTIONAL POLISH - safe to delete (read the note in that section)
 
    HOW TO CHANGE THINGS
-     Global colours and the font  ->  Project Organizer > Branding
+     Global colors and the font  ->  Project Organizer > Branding
      Header / side nav / search   ->  Project Organizer > Skins
      Everything below             ->  this file
 
-   Colours used here, so you can find and replace them:
+   Colors used here, so you can find and replace them:
      #1B1F2A  body text (comes from Branding as --Dark)
      #5B6472  muted / secondary text
      #E5E7EB  hairline borders
@@ -520,7 +520,7 @@ div.caution::before
 
    The artwork is Resources/Images/Hero.png. Replace that file to change the
    banner. Keep any replacement dark - the heading on top of it is white, and
-   the colour below is only a fallback while the image loads. */
+   the color below is only a fallback while the image loads. */
 
 div.hero
 {
@@ -562,9 +562,9 @@ div.card-grid
 	margin-bottom: 2.5rem;
 }
 
-/* Each card is a link, so the whole tile is clickable. The coloured bar along
+/* Each card is a link, so the whole tile is clickable. The colored bar along
    the top and the soft shadow are what stop a page of cards looking flat and
-   clinical. Add one of the colour classes below to vary the bar -
+   clinical. Add one of the color classes below to vary the bar -
    card-blue, card-amber or card-rose. */
 
 a.card
@@ -644,7 +644,7 @@ p.card-text
 	margin-bottom: 0;
 }
 
-/* Small coloured label, e.g. <span class="badge">New</span> */
+/* Small colored label, e.g. <span class="badge">New</span> */
 
 span.badge
 {
@@ -1152,7 +1152,7 @@ ul.sidenav li a
 
 /* The thin dividing lines under the header and beside the side navigation.
    These are set in the Skin editor as border properties, but Flare accepts
-   only the background colour for those two components and silently discards
+   only the background color for those two components and silently discards
    the borders - so they have to be set here instead.
    If these ever stop working you simply lose two 1-pixel lines. */
 
@@ -1195,7 +1195,7 @@ nav.title-bar
 
 /* --- Search box ---------------------------------------------------------
    The header is white and so was the search field, which made it invisible.
-   The Skin editor accepts only the text and background colours for this
+   The Skin editor accepts only the text and background colors for this
    component and throws away any border or corner radius, so the visible
    outline and rounded shape have to be set here. */
 
@@ -1215,8 +1215,8 @@ nav.title-bar
 }
 
 /* The magnifier button sits on top of the field. Flare ships it filled with
-   its own lime green (#bed230), which clashes with the accent colour and
-   covered the field's rounded corner. Only the colour is cleared here - the
+   its own lime green (#bed230), which clashes with the accent color and
+   covered the field's rounded corner. Only the color is cleared here - the
    magnifier icon itself is left alone. */
 
 .search-bar .search-submit
@@ -1243,6 +1243,8 @@ nav.title-bar
 ul.sidenav .is-accordion-submenu-parent > a span.submenu-toggle-container
 {
 	width: 48px;
+	border-left: 1px solid transparent;
+	transition: background-color 0.12s ease, border-color 0.12s ease;
 }
 
 ul.sidenav .is-accordion-submenu-parent > a
@@ -1250,7 +1252,44 @@ ul.sidenav .is-accordion-submenu-parent > a
 	padding-right: 48px;
 }
 
-/* Flare colours the arrow with its own lime green. Make it grey, and darker
+/* Two things happen on one row: the label opens the topic, the arrow expands
+   the section. The divider is always visible, so the two targets are obvious
+   without having to hover to find out. */
+
+ul.sidenav .is-accordion-submenu-parent > a span.submenu-toggle-container
+{
+	border-left-color: #E3E6EA;
+}
+
+/* Hovering the row must not light up the arrow. The arrow zone is transparent,
+   so the row's own highlight shows straight through it and the whole row looks
+   lit. Painting the zone with the side navigation color keeps it out of the
+   highlight. The arrow-hover rule below is more specific, so it still wins when
+   the arrow itself is hovered. */
+
+ul.sidenav li > a:hover span.submenu-toggle-container
+{
+	background-color: #F7F8FA;
+}
+
+/* Hovering the arrow highlights only the arrow. */
+
+ul.sidenav .is-accordion-submenu-parent > a span.submenu-toggle-container:hover
+{
+	background-color: #DFE4E9;
+	border-left-color: #CBD2D9;
+}
+
+/* ...and cancels the row highlight, because the arrow sits inside the link, so
+   the row's own hover fires at the same time. Without this you cannot tell the
+   two apart. :has() looks at the link and asks "is my arrow being hovered?" */
+
+ul.sidenav li > a:has(span.submenu-toggle-container:hover)
+{
+	background-color: transparent;
+}
+
+/* Flare colors the arrow with its own lime green. Make it gray, and darker
    on hover so it reads as a control. */
 
 ul.sidenav .is-accordion-submenu-parent > a span.submenu-toggle
@@ -1258,7 +1297,10 @@ ul.sidenav .is-accordion-submenu-parent > a span.submenu-toggle
 	border-top-color: #9CA3AF;
 }
 
-ul.sidenav .is-accordion-submenu-parent > a:hover span.submenu-toggle
+/* Deliberately no rule for "row hovered" here - hovering the label must leave
+   the arrow alone. The arrow only reacts when the arrow itself is hovered. */
+
+ul.sidenav .is-accordion-submenu-parent > a span.submenu-toggle-container:hover span.submenu-toggle
 {
 	border-top-color: #047857;
 }
