@@ -85,8 +85,8 @@
 	{
 		top: 0;
 		margin: 0;
-		width: 182px;
-		height: 42px;
+		width: 364px;
+		height: 84px;
 		background: transparent url('Images/Logo.png') no-repeat center center;
 		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/Logo.png') no-repeat center center;
 	}
@@ -444,13 +444,13 @@
 
 	.title-bar-layout .logo-wrapper
 	{
-		min-height: 42px;
+		min-height: 84px;
 		flex-basis: 100%;
 	}
 
 	.menu-icon-container
 	{
-		min-height: 42px;
+		min-height: 84px;
 	}
 
 	.off-canvas-wrapper-inner .outer-row

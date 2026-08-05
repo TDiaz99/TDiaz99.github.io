@@ -35,9 +35,13 @@
 
 	   Must be a PNG or other raster image: Flare's skin image pipeline
 	   silently refuses to copy an SVG here, which leaves the logo blank.
-	   Must also be 182 x 42 pixels or smaller. The skin draws it into a box
-	   that size and offers no way to scale the image, so anything larger is
-	   cropped. The editable master and the script that produces this PNG are
-	   in the Design-Source folder at the top of the project. */
+
+	   It is shipped at 364 x 84 - twice the 182 x 42 box the skin draws it in -
+	   so it stays sharp on high-DPI screens. The skin cannot scale an image, so
+	   Styles.css sets background-size on the logo to bring it back down. Keep
+	   that rule if you replace this file with another oversized image.
+
+	   The editable master and the script that produces this PNG are in the
+	   Design-Source folder at the top of the project. */
 	--LogoImage: url('../Images/Logo.png');
 }

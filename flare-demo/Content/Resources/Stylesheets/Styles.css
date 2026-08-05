@@ -1161,6 +1161,25 @@ nav.title-bar
 	border-bottom: 1px solid #E5E7EB;
 }
 
+/* The logo image is supplied at twice its display size (364 x 84) so it stays
+   sharp on high-DPI screens and when Windows display scaling is above 100%.
+
+   Flare sizes the logo box from the image's own dimensions, so a 2x image makes
+   the box twice as big as intended. These three lines put the box back to
+   182 x 42 and scale the artwork down into it, which is what makes it crisp.
+
+   Keep all three together if you replace Logo.png with another 2x image. Flare
+   repeats this rule in its tablet and mobile stylesheets, but ours loads last,
+   so this one wins at every screen width. */
+
+.title-bar-layout a.logo
+{
+	width: 182px;
+	height: 42px;
+	background-size: contain;
+	background-position: left center;
+}
+
 .sidenav-wrapper
 {
 	border-right: 1px solid #E5E7EB;
