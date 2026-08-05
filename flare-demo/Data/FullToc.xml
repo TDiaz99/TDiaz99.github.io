@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc Version="1" DescendantCount="44">
+    <TocEntry Title="Getting started" Link="/Content/Get-Started/Get-Started.htm" ComputedResetPageLayout="true" ComputedFirstTopic="true" DescendantCount="3">
+        <TocEntry Title="Set up your company" Link="/Content/Get-Started/Set-Up-Your-Company.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Add your first employee" Link="/Content/Get-Started/Add-Your-First-Employee.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Common questions" Link="/Content/Get-Started/Common-Questions.htm" ComputedFirstTopic="false" DescendantCount="0" />
+    </TocEntry>
+    <TocEntry Title="Payroll" Link="/Content/Payroll/Payroll.htm" ComputedFirstTopic="false" DescendantCount="4">
+        <TocEntry Title="Run a payroll cycle" Link="/Content/Payroll/Run-A-Payroll-Cycle.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Earnings and deduction codes" Link="/Content/Payroll/Earnings-And-Deduction-Codes.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Change a pay rate" Link="/Content/Payroll/Change-A-Pay-Rate.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Off-cycle payments" Link="/Content/Payroll/Off-Cycle-Payments.htm" ComputedFirstTopic="false" DescendantCount="0" />
+    </TocEntry>
+    <TocEntry Title="Time and benefits" Link="/Content/Time-And-Benefits/Time-And-Benefits.htm" ComputedFirstTopic="false" DescendantCount="2">
+        <TocEntry Title="Time-off accrual rules" Link="/Content/Time-And-Benefits/Time-Off-Accrual-Rules.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Benefit plan enrolment" Link="/Content/Time-And-Benefits/Benefit-Plan-Enrolment.htm" ComputedFirstTopic="false" DescendantCount="0" />
+    </TocEntry>
+    <TocEntry Title="Developer reference" Link="/Content/Developers/Developer-Reference.htm" ComputedFirstTopic="false" DescendantCount="2">
+        <TocEntry Title="REST API overview" Link="/Content/Developers/REST-API-Overview.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Webhook events" Link="/Content/Developers/Webhook-Events.htm" ComputedFirstTopic="false" DescendantCount="0" />
+    </TocEntry>
+    <TocEntry Title="Reporting" Link="/Content/Placeholder/Reporting.htm" ComputedFirstTopic="false" DescendantCount="6">
+        <TocEntry Title="Standard reports" Link="/Content/Placeholder/Standard-reports.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Build a custom report" Link="/Content/Placeholder/Build-a-custom-report.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Schedule a report" Link="/Content/Placeholder/Schedule-a-report.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Export to a spreadsheet" Link="/Content/Placeholder/Export-to-a-spreadsheet.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Payroll register" Link="/Content/Placeholder/Payroll-register.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Headcount and turnover" Link="/Content/Placeholder/Headcount-and-turnover.htm" ComputedFirstTopic="false" DescendantCount="0" />
+    </TocEntry>
+    <TocEntry Title="Integrations" Link="/Content/Placeholder/Integrations.htm" ComputedFirstTopic="false" DescendantCount="5">
+        <TocEntry Title="Accounting systems" Link="/Content/Placeholder/Accounting-systems.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Time clocks" Link="/Content/Placeholder/Time-clocks.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Single sign-on" Link="/Content/Placeholder/Single-sign-on.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Applicant tracking" Link="/Content/Placeholder/Applicant-tracking.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Pension providers" Link="/Content/Placeholder/Pension-providers.htm" ComputedFirstTopic="false" DescendantCount="0" />
+    </TocEntry>
+    <TocEntry Title="Administration" Link="/Content/Placeholder/Administration.htm" ComputedFirstTopic="false" DescendantCount="6">
+        <TocEntry Title="Users and roles" Link="/Content/Placeholder/Users-and-roles.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Approval workflows" Link="/Content/Placeholder/Approval-workflows.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Company calendars" Link="/Content/Placeholder/Company-calendars.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Document templates" Link="/Content/Placeholder/Document-templates.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Audit log" Link="/Content/Placeholder/Audit-log.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Data retention" Link="/Content/Placeholder/Data-retention.htm" ComputedFirstTopic="false" DescendantCount="0" />
+    </TocEntry>
+    <TocEntry Title="Security and compliance" Link="/Content/Placeholder/Security-and-compliance.htm" ComputedFirstTopic="false" DescendantCount="4">
+        <TocEntry Title="Access control" Link="/Content/Placeholder/Access-control.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Two-factor authentication" Link="/Content/Placeholder/Two-factor-authentication.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Year-end filing" Link="/Content/Placeholder/Year-end-filing.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Data residency" Link="/Content/Placeholder/Data-residency.htm" ComputedFirstTopic="false" DescendantCount="0" />
+    </TocEntry>
+    <TocEntry Title="Release notes" Link="/Content/Placeholder/Release-notes.htm" ComputedFirstTopic="false" DescendantCount="3">
+        <TocEntry Title="August 2026" Link="/Content/Placeholder/August-2026.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="July 2026" Link="/Content/Placeholder/July-2026.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="June 2026" Link="/Content/Placeholder/June-2026.htm" ComputedFirstTopic="false" DescendantCount="0" />
+    </TocEntry>
+</CatapultToc>
