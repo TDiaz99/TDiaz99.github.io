@@ -1,1 +1,0 @@
-define({r:0.5,st:'Stem',n:1,t:[0],m:[],u:['../Content/Developers/Developer-Reference.htm'],s:['$token','public'],p:[['$token',13],['effect',10],['p`st',6],['toc',38]]});
