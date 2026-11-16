@@ -1,0 +1,107 @@
+/* "I'm not a robot" popup shown centered above the sidebar email link. */
+
+/* ---- The checkbox ---- */
+
+.human-check-row {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.6em;
+	margin: 0;
+	padding: 0;
+	cursor: pointer;
+	font-family: "Open Sans", sans-serif;
+	font-size: 0.95em;
+	font-weight: 400;
+	color: #3d4449;
+	letter-spacing: 0;
+	text-transform: none;
+	white-space: nowrap;
+	user-select: none;
+}
+
+/* The theme draws its own checkbox via label:before; suppress it here. */
+.human-check-row:before { content: none !important; }
+
+/* Hide the native checkbox but keep it focusable and clickable. */
+.human-check-row input[type="checkbox"] {
+	position: absolute;
+	opacity: 0;
+	width: 1px;
+	height: 1px;
+	margin: 0;
+}
+
+.human-check-mark {
+	position: relative;
+	flex: 0 0 auto;
+	width: 1.5em;
+	height: 1.5em;
+	border: 2px solid #9fa3a6;
+	border-radius: 3px;
+	background: #ffffff;
+	transition: border-color 0.2s ease;
+}
+
+.human-check-row input:focus-visible + .human-check-mark {
+	outline: 2px solid #1c525b;
+	outline-offset: 2px;
+}
+
+.human-check-row:hover .human-check-mark { border-color: #3d4449; }
+
+.human-check-mark.is-loading {
+	border-color: #d3d5d7;
+	border-top-color: #1c525b;
+	border-radius: 50%;
+	animation: human-check-spin 0.8s linear infinite;
+}
+
+.human-check-mark.is-done { border-color: transparent; }
+.human-check-mark.is-done:after {
+	content: "";
+	position: absolute;
+	left: 0.42em;
+	top: 0;
+	width: 0.48em;
+	height: 0.95em;
+	border: solid #2e9e5b;
+	border-width: 0 0.2em 0.2em 0;
+	transform: rotate(45deg);
+}
+
+@keyframes human-check-spin {
+	to { transform: rotate(360deg); }
+}
+
+/* ---- Popup above the link ---- */
+
+.human-check-host { position: relative; }
+
+.human-check-pop {
+	position: absolute; /* left/top set by reveal-email.js */
+	z-index: 100;
+	background: #ffffff;
+	border: 1px solid #d3d5d7;
+	border-radius: 4px;
+	box-shadow: 0 4px 16px rgba(0, 0, 0, 0.14);
+	padding: 0.65em 0.9em 0.65em 0.75em;
+}
+
+.human-check-pop:before,
+.human-check-pop:after {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	border: solid transparent;
+}
+.human-check-pop:before {
+	border-width: 9px;
+	border-top-color: #d3d5d7;
+	margin-left: -9px;
+}
+.human-check-pop:after {
+	border-width: 8px;
+	border-top-color: #ffffff;
+	margin-left: -8px;
+}

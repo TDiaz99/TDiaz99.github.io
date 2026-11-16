@@ -1,0 +1,9 @@
+# The whole site is kept out of search results.
+# Pages that use the shared layout carry a "noindex" meta tag, which only
+# works if crawlers can fetch them, so those stay crawlable here. Files
+# that can't carry the tag (PDFs, pages without the layout) are blocked.
+User-agent: *
+Disallow: /resume/
+Disallow: /Default%20Pages/
+Disallow: /Microsoft%20Office%20Suite%20Sample%20Documentation/
+Disallow: /Template.html

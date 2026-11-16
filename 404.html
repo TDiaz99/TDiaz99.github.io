@@ -1,0 +1,53 @@
+---
+layout: default
+title: Page Not Found
+permalink: /404.html
+---
+							<style>
+								.not-found { align-items: center; }
+								.not-found .code {
+									display: block;
+									font-family: "Roboto Slab", serif;
+									font-size: 8em;
+									font-weight: 700;
+									line-height: 1;
+									letter-spacing: 0.04em;
+									color: #f56a6a;
+									margin: 0 0 0.15em;
+								}
+								.not-found h1 { margin-bottom: 1.25em; }
+								.not-found .art {
+									flex: 0 0 auto;
+									align-self: center;
+									font-size: 14em;
+									line-height: 1;
+									color: rgba(245, 106, 106, 0.12);
+									margin-left: 1em;
+								}
+								@media screen and (orientation: portrait) {
+									.not-found .art { display: none; }
+								}
+								@media screen and (max-width: 980px) {
+									.not-found .art { display: none; }
+									.not-found .code { font-size: 6em; }
+								}
+								@media screen and (max-width: 480px) {
+									.not-found .code { font-size: 4.5em; }
+									.not-found .actions li,
+									.not-found .actions .button { width: 100%; }
+								}
+							</style>
+
+							<!-- Banner -->
+								<section id="banner" class="not-found">
+									<div class="content">
+										<header>
+											<span class="code" aria-hidden="true">404</span>
+											<h1>Page not found</h1>
+										</header>
+										<ul class="actions">
+											<li><a href="{{ '/' | relative_url }}" class="button primary big icon solid fa-home">Back to homepage</a></li>
+										</ul>
+									</div>
+									<span class="art icon solid fa-book-open" aria-hidden="true"></span>
+								</section>

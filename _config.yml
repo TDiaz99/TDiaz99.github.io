@@ -1,0 +1,24 @@
+# Site settings — used by _layouts and _includes.
+# After changing this file, restart `bundle exec jekyll serve` to see the change.
+
+title: Taylor Diaz
+description: >-
+  Technical writing portfolio of Taylor Diaz: user manuals, standard operating
+  procedures, and API documentation samples.
+url: https://tdiaz99.github.io
+baseurl: ""  # user site lives at the domain root
+repository: TDiaz99/TDiaz99.github.io
+
+author:
+  name: Taylor Diaz
+  email: 12thsonata@Gmail.com
+  linkedin: https://www.linkedin.com/in/taylor-d-7b60a318b/
+
+footer_text: Creative Commons Attribution-NonCommercial 4.0 International License.
+
+# Files that live in the repo but are not part of the published site.
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

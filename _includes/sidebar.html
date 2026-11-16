@@ -1,0 +1,53 @@
+			<!-- Sidebar -->
+				<div id="sidebar">
+					<div class="inner">
+
+						<!-- Menu (edit _data/navigation.yml) -->
+							<nav id="menu">
+								<header class="major">
+									<h2>Menu</h2>
+								</header>
+								<ul>
+{%- for item in site.data.navigation %}
+	{%- if item.children %}
+									<li>
+										<span class="opener">{{ item.title }}</span>
+										<ul>
+		{%- for child in item.children %}
+											<li><a href="{{ child.url | relative_url }}"{% if child.new_tab %} target="_blank" rel="noopener noreferrer"{% endif %}>{{ child.title }}</a></li>
+		{%- endfor %}
+										</ul>
+									</li>
+	{%- else %}
+									<li><a href="{{ item.url | relative_url }}"{% if item.new_tab %} target="_blank" rel="noopener noreferrer"{% endif %}>{{ item.title }}</a></li>
+	{%- endif %}
+{%- endfor %}
+								</ul>
+							</nav>
+
+						<!-- Contact -->
+							<section>
+								<header class="major">
+									<h2>Get in touch</h2>
+								</header>
+{%- comment -%}
+	The email is never written into the page. Its two halves are stored
+	reversed and only joined back together when a visitor clicks the link,
+	which keeps it away from address-harvesting bots.
+{%- endcomment -%}
+{%- assign email_parts = site.author.email | split: "@" -%}
+{%- assign email_u = email_parts[0] | split: "" | reverse | join: "" -%}
+{%- assign email_d = email_parts[1] | split: "" | reverse | join: "" %}
+								<ul class="contact">
+									<li class="icon brands fa-linkedin"><a href="{{ site.author.linkedin }}" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+									<li class="icon solid fa-envelope"><a href="#" class="reveal-email" data-u="{{ email_u }}" data-d="{{ email_d }}">Click to show email</a></li>
+								</ul>
+							</section>
+
+						<!-- Footer -->
+							<footer id="footer">
+								<p class="copyright">{{ site.footer_text }}</p>
+							</footer>
+
+					</div>
+				</div>

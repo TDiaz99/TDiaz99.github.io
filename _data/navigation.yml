@@ -1,0 +1,19 @@
+# Sidebar menu, shown on every page that uses the default layout.
+# Each item needs a title and a url. Add `new_tab: true` to open in a new tab.
+# An item with `children` becomes a collapsible group.
+
+- title: Homepage
+  url: /
+
+- title: View Resume
+  url: /resume/Taylor%20Diaz.pdf
+  new_tab: true
+
+- title: Writing Samples
+  children:
+    - title: User Manual
+      url: /XYZ%20Company.html
+    - title: Standard Operating Procedure (SOP)
+      url: /WIP.html
+    - title: API Documentation
+      url: /WIP.html
