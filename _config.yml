@@ -2,9 +2,7 @@
 # After changing this file, restart `bundle exec jekyll serve` to see the change.
 
 title: Taylor Diaz
-description: >-
-  Technical writing portfolio of Taylor Diaz: user manuals, standard operating
-  procedures, and API documentation samples.
+description: Technical writing portfolio of Taylor Diaz
 url: https://tdiaz99.github.io
 baseurl: ""  # user site lives at the domain root
 repository: TDiaz99/TDiaz99.github.io
